@@ -102,6 +102,7 @@ async def handle_message(bot, message):
         if command in category:
             response, _ = category[command]
             await response_channel.send(f"{response}\n{target_user.mention}")
+            await message.delete()
             return
 
     # Map complex commands to their respective handler functions
@@ -114,6 +115,7 @@ async def handle_message(bot, message):
     # Check if the command exists in the complex commands dictionary
     if command in complex_commands:
         await complex_commands[command](bot, message, response_channel, target_user)
+        await message.delete()
         return
 
 # Function to generate and display the categorized help message
