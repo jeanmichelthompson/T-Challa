@@ -91,7 +91,7 @@ async def handle_message(bot, message):
 
     # Check for 👀 emoji and respond with the same emoji in the response channel
     if "👀" in msg:  # Check for the emoji itself
-        await response_channel.send(f"{target_user.mention} 👀")
+        await message.channel.send(f"👀")
         return
 
     # Split the message to get the command and arguments
