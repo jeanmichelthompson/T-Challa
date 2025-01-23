@@ -59,7 +59,7 @@ CATEGORIZED_COMMANDS = {
     "General Information": {
         "!bot": (
             "This is a custom bot for the Panthercord that is capable of doing nearly anything we could need. If you have any suggestions for features, feel free to post them in https://discord.com/channels/1318808095081758842/1331419541187854356. Use !help for a list of commands.",
-            "Explains the bot's purpose."
+            "Overview of the bot."
         ),
     },
 }
