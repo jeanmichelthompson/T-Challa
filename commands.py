@@ -23,10 +23,6 @@ CATEGORIZED_COMMANDS = {
             "Karkat doesn't have a fixed schedule since he works full time, but you can check https://discord.com/channels/1318808095081758842/1328061600028033054 for a list of upcoming streams!",
             "When does Karkat stream?"
         ),
-        "!facereveal": (
-            "Karkat's face is out there on the internet, so it wouldn’t be a reveal exactly, but he just doesn't have a webcam. He also figures most people watch the stream for the gameplay and don’t really care what he looks like.",
-            "Face reveal when?"
-        ),
         "!fliers": (
             "If you can hit the first spear, you can dash to them, spinning kick to stay at the right height and mark them again, then dash. If they’re not getting pocketed, they should die like this: https://discord.com/channels/1318808095081758842/1318814083142914198/1329143037347238049",
             "How to deal with fliers."
@@ -54,6 +50,10 @@ CATEGORIZED_COMMANDS = {
         "!vod": (
             "When we decide to do a vod review, a post will be made in the discord under 'match-id' where the first person to drop a code gets chosen. Must be a panther game and a loss, first come first serve, gets reset every stream! Karkat tries to do at least one vod review stream so if you don’t get reviewed today, be sure to come back!",
             "How to get a VOD reviewed."
+        ),
+        "!facereveal": (
+            "Karkat's face is out there on the internet, so it wouldn’t be a reveal exactly, but he just doesn't have a webcam. He also figures most people watch the stream for the gameplay and don’t really care what he looks like.",
+            "Face reveal when?"
         ),
     },
     "General Information": {
