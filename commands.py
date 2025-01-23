@@ -126,7 +126,7 @@ async def help_command(bot, message, response_channel, target_user):
         for command, (_, description) in commands.items():
             help_message += f"{command} - {description}\n"
         help_message += "\n"
-    await response_channel.send(f"{help_message}\n{target_user.mention}  ")
+    await response_channel.send(f"{help_message}{target_user.mention}  ")
 
 
 # Example function for a complex command
