@@ -28,7 +28,7 @@ CATEGORIZED_COMMANDS = {
             "How to deal with fliers."
         ),
         "!nerf": (
-            "The nerf makes black panther harder to play, but he’s still extremely strong. The margin for error is just much smaller.",
+            "The nerf decreased shield generation when dashing marked targets as well as the maximum shield that can be generated at one time. It makes black panther harder to play, but he’s still extremely strong. The margin for error is just much smaller.",
             "The effects of Panther nerfs."
         ),
         "!buff": (
@@ -41,11 +41,11 @@ CATEGORIZED_COMMANDS = {
         ),
         "!sg": (
             "SG stands for Sanctuary Games which is an indie game studio Karkat started a couple years ago. Still working on their first game, no eta!",
-            "Explains what Sanctuary Games (SG) is."
+            "What Sanctuary Games (SG) is."
         ),
         "!sens": (
             "DPI: 1600, In-Game: 1.5\nBut sensitivity is personal preference, so use whatever feels most comfortable!",
-            "Provides Karkat's sensitivity settings."
+            "Karkat's sensitivity settings."
         ),
         "!vod": (
             "When we decide to do a vod review, a post will be made in the discord under 'match-id' where the first person to drop a code gets chosen. Must be a panther game and a loss, first come first serve, gets reset every stream! Karkat tries to do at least one vod review stream so if you don’t get reviewed today, be sure to come back!",
