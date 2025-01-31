@@ -10,7 +10,7 @@ CONVERSATION_HISTORY = []
 
 BLACK_PANTHER_TIPS = (
     "Key Black Panther Gameplay Tips in Marvel Rivals:\n\n"
-    "Black Panther's abilities are: Vibranium Claws (basic attack - 35 damage), Spirit Rend (dash - 80 damage), Spinning Kick (dash-like - applies vibranium mark - 70 damage), Spear Toss (ranged - 2 charges - applies vibranium mark - 45 damage), Subtle Step(double jump), and Bast's Descent (ultimate - 150 damage).\n\n"
+    "Black Panther's abilities are: Vibranium Claws (basic attack - 35 damage), Spirit Rend (dash - 80 damage), Spinning Kick (dash-like - applies vibranium mark - 70 damage), Spear Toss (ranged - 2 charges - applies vibranium mark - 45 damage), Subtle Step(double jump), Panter's Cunning (passive 20 percent damage boost at 100hp or less), and Bast's Descent (ultimate - 150 damage).\n\n"
     "1) Dash (Spirit Rend) = Lifeline. Avoid using it unless certain you'll reset the cooldown. "
     "Exceptions are leaving spawn, retreating to cover/support, or a guaranteed kill that won't cripple your team.\n\n"
     "2) Master Mechanics. Internalize combos, cooldown usage, and movement so thoroughly that you can focus on bigger decisions during fights.\n\n"
