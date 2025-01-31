@@ -96,11 +96,6 @@ against other characters.:
 client = OpenAI(api_key=OPENAI_KEY)
 
 def get_coach_reply(user_name: str, user_prompt: str) -> str:
-    """
-    Retrieves a ChatGPT-style completion based on the conversation so far + the new user message.
-    Prints each step to give you visibility into the process.
-    """
-
     messages = [{"role": "system", "content": SYSTEM_PROMPT}] + CONVERSATION_HISTORY
 
     new_user_msg = {
@@ -109,7 +104,6 @@ def get_coach_reply(user_name: str, user_prompt: str) -> str:
     }
     messages.append(new_user_msg)
 
-    # Print the user's question
     print(f"[DEBUG] {user_name}: {user_prompt}")
 
     try:
@@ -121,15 +115,19 @@ def get_coach_reply(user_name: str, user_prompt: str) -> str:
 
         assistant_reply = response.choices[0].message.content
 
-        # Print the assistant's answer
         print("[DEBUG] T'Challa:")
         print(assistant_reply, "\n")
 
+        # Append the new messages to conversation history
         CONVERSATION_HISTORY.append(new_user_msg)
-        CONVERSATION_HISTORY.append({
-            "role": "assistant",
-            "content": assistant_reply
-        })
+        # Prune if over 20
+        if len(CONVERSATION_HISTORY) > 20:
+            CONVERSATION_HISTORY.pop(0)
+
+        CONVERSATION_HISTORY.append({"role": "assistant", "content": assistant_reply})
+        # Prune if over 20
+        if len(CONVERSATION_HISTORY) > 20:
+            CONVERSATION_HISTORY.pop(0)
 
         return assistant_reply
 

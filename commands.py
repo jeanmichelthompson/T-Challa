@@ -137,15 +137,24 @@ async def hi(bot, message, response_channel, target_user):
 
 # Coaching commmand
 async def coach_command(bot, message, response_channel, target_user):
-    # Extract prompt body after "!coach"
-    prompt_body = message.content[len("!coach"):].strip()
-    if not prompt_body:
-        await message.channel.send("Please ask a question or provide context after `!coach`.")
+    # Only allow the command in channel 1318814083142914198:
+    required_channel_id = 1318814083142914198
+    if message.channel.id != required_channel_id:
+        await message.channel.send(
+            f"{message.author.mention} Please run the `!coach` command in <#{required_channel_id}>."
+        )
+        await message.delete()
         return
 
-    # Example: Use the user's display name or a global_name if you have it
-    user_name = message.author.display_name
+    # If the command is in the correct channel, proceed:
+    prompt_body = message.content[len("!coach"):].strip()
+    if not prompt_body:
+        await message.channel.send(
+            "Please ask a question or provide context after !coach."
+        )
+        return
 
+    user_name = message.author.display_name
     reply = get_coach_reply(user_name, prompt_body)
     await message.channel.send(reply)
 
