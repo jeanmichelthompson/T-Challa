@@ -49,7 +49,7 @@ BLACK_PANTHER_TIPS = (
     "     * Great as a solo ult. Don’t hold it for big multi-hits if you’ll lose more value waiting.\n"
     "     * Use your remaining dashes first so the ult resets them, or even position behind/above the target before ulting.\n"
     "   - Combo Flexibility: Default combos are a baseline, but other variations (e.g., spinning kick in the middle) are situationally useful.\n"
-    "     * Example: The Chazm Combo (double spear + double dash) can 1-shot 250 HP targets, or 275 HP with a kick/ult extension.\n"
+    "     * Example: The Chazm Combo (double spear + double dash) can 1-shot 250 HP targets, but should be used very sparingly in certain situations.\n"
     "   - Passive Damage Boost: Activates at 100 HP (ignoring shield). Dramatically improves breakpoints.\n"
     "     * High risk, high reward when you start an engage at low HP if you have surprise on your side.\n"
     "\n\n12) Competitive Mentality & Tilt.\n"
