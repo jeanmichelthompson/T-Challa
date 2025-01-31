@@ -137,8 +137,8 @@ async def hi(bot, message, response_channel, target_user):
 
 # Coaching commmand
 async def coach_command(bot, message, response_channel, target_user):
-    # Only allow the command in channel 1318814083142914198:
-    required_channel_id = 1318814083142914198
+    # Only allow the command in channel 1334953693073768479:
+    required_channel_id = 1334953693073768479
     if message.channel.id != required_channel_id:
         await message.channel.send(
             f"{message.author.mention} Please run the `!coach` command in <#{required_channel_id}>."
