@@ -117,7 +117,6 @@ async def handle_message(bot, message):
     # Check if the command exists in the complex commands dictionary
     if command in complex_commands:
         await complex_commands[command](bot, message, response_channel, target_user)
-        await message.delete()
         return
 
 # Function to generate and display the categorized help message
@@ -129,6 +128,8 @@ async def help_command(bot, message, response_channel, target_user):
             help_message += f"{command} - {description}\n"
         help_message += "\n"
     await response_channel.send(f"{help_message}{target_user.mention}  ")
+    await message.delete()
+
 
 # Hi command
 async def hi(bot, message, response_channel, target_user):
@@ -136,20 +137,15 @@ async def hi(bot, message, response_channel, target_user):
 
 # Coaching commmand
 async def coach_command(bot, message, response_channel, target_user):
-    """
-    Takes whatever comes after '!coach ' as user prompt, 
-    sends it to the OpenAI function, and replies with the AI’s response.
-    """
+    # Extract prompt body after "!coach"
     prompt_body = message.content[len("!coach"):].strip()
-
-    # Edge case: if user forgot to include text
     if not prompt_body:
-        await message.channel.send("Please provide something to coach you on, e.g. `!coach How do I…?`")
+        await message.channel.send("Please ask a question or provide context after `!coach`.")
         return
 
-    # Get the response from ChatGPT
-    reply = get_coach_reply(prompt_body)
+    # Example: Use the user's display name or a global_name if you have it
+    user_name = message.author.display_name
 
-    # Send it back to the channel
+    reply = get_coach_reply(user_name, prompt_body)
     await message.channel.send(reply)
 
