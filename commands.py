@@ -1,3 +1,5 @@
+from openai_client import get_coach_reply
+
 # Dictionary to map commands to their respective responses and descriptions, grouped by category
 CATEGORIZED_COMMANDS = {
     "Helpful Links": {
@@ -108,8 +110,8 @@ async def handle_message(bot, message):
     # Map complex commands to their respective handler functions
     complex_commands = {
         "!help": help_command,
-        "!complex": complex_example_command,
         "!hi": hi,
+        "!coach": coach_command,
     }
 
     # Check if the command exists in the complex commands dictionary
@@ -128,11 +130,28 @@ async def help_command(bot, message, response_channel, target_user):
         help_message += "\n"
     await response_channel.send(f"{help_message}{target_user.mention}  ")
 
-
-# Example function for a complex command
-async def complex_example_command(bot, message, response_channel, target_user):
-    await response_channel.send(f"{target_user.mention} This is an example of a complex command!")
-
+# Hi command
 async def hi(bot, message, response_channel, target_user):
     await message.channel.send(f"hi {target_user.mention}  :wave:")
+
+# Coaching commmand
+async def coach_command(bot, message):
+    """
+    Takes whatever comes after '!coach ' as user prompt, 
+    sends it to the OpenAI function, and replies with the AI’s response.
+    """
+    # Remove the command from the message text (the first word is "!coach")
+    # e.g. "!coach How do I improve my mental game?" -> "How do I improve my mental game?"
+    prompt_body = message.content[len("!coach"):].strip()
+
+    # Edge case: if user forgot to include text
+    if not prompt_body:
+        await message.channel.send("Please provide something to coach you on, e.g. `!coach How do I…?`")
+        return
+
+    # Get the response from ChatGPT
+    reply = get_coach_reply(prompt_body)
+
+    # Send it back to the channel
+    await message.channel.send(reply)
 
