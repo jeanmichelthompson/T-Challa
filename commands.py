@@ -135,13 +135,11 @@ async def hi(bot, message, response_channel, target_user):
     await message.channel.send(f"hi {target_user.mention}  :wave:")
 
 # Coaching commmand
-async def coach_command(bot, message):
+async def coach_command(bot, message, response_channel, target_user):
     """
     Takes whatever comes after '!coach ' as user prompt, 
     sends it to the OpenAI function, and replies with the AI’s response.
     """
-    # Remove the command from the message text (the first word is "!coach")
-    # e.g. "!coach How do I improve my mental game?" -> "How do I improve my mental game?"
     prompt_body = message.content[len("!coach"):].strip()
 
     # Edge case: if user forgot to include text
