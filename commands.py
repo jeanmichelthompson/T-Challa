@@ -5,19 +5,19 @@ CATEGORIZED_COMMANDS = {
     "Helpful Links": {
         "!youtube": (
             "https://www.youtube.com/@karkatsg",
-            "YouTube channel link."
+            "YouTube channel link"
         ),
         "!twitch": (
             "https://www.twitch.tv/karkatsg",
-            "Twitch channel link."
+            "Twitch channel link"
         ),
         "!discord": (
             "https://discord.gg/zq5eznZXVd",
-            "Discord invite link."
+            "Discord invite link"
         ),
         "!twitter": (
             "https://twitter.com/karkatsg",
-            "Twitter profile link."
+            "Twitter profile link"
         ),
         "!vodchannel": (
             "https://www.youtube.com/channel/UC00t1W6BxLr0vJoxwLO0O4A/",
@@ -25,29 +25,29 @@ CATEGORIZED_COMMANDS = {
         ),
         "!guide": (
             "https://www.youtube.com/watch?v=KHpABbvMSXc",
-            "Link to the Panther guide."
+            "Link to the Panther guide"
         ),
         "!dive": (
             "https://youtu.be/_N3jwHmMgxU",
-            "Link to the Dive guide."
+            "Link to the Dive guide"
         ),
         "!positioning": (
             "https://youtu.be/x8M1Dji02Yk",
-            "Link to the Positioning guide."
+            "Link to the Positioning guide"
         ),
         "!mechanics": (
             "https://youtu.be/BcDYSeJcM2w",
-            "Link to the Advanced Mechanics guide."
+            "Link to the Advanced Mechanics guide"
         ),
         "!mentality": (
             "https://youtu.be/7qvFBjG8wIU",
-            "Link to the Mentality guide."
+            "Link to the Mentality guide"
         ),
     },
     "FAQs": {
         "!ban": (
             "So far, he's won in high elo on venom, captain america, starlord, punisher, iron man, mantis, and invisible woman.",
-            "The characters Karkat switches to if Black Panther is banned."
+            "The characters Karkat switches to if Black Panther is banned"
         ),
         "!schedule": (
             "Karkat doesn't have a fixed schedule since he works full time, but you can check https://discord.com/channels/1318808095081758842/1328061600028033054 for a list of upcoming streams!",
@@ -55,31 +55,31 @@ CATEGORIZED_COMMANDS = {
         ),
         "!fliers": (
             "If you can hit the first spear, you can dash to them, spinning kick to stay at the right height and mark them again, then dash. If they’re not getting pocketed, they should die like this: https://discord.com/channels/1318808095081758842/1318814083142914198/1329143037347238049",
-            "How to deal with fliers."
+            "How to deal with fliers"
         ),
         "!nerf": (
             "The nerf decreased shield generation when dashing marked targets as well as the maximum shield that can be generated at one time. It makes black panther harder to play, but he’s still extremely strong. The margin for error is just much smaller.",
-            "The effects of Panther nerfs."
+            "The effects of Panther nerfs"
         ),
         "!buff": (
             "Revert the panther nerfs, fix no-reg, and nerf his direct counters who got buffed like namor and bucky.",
-            "Karkat's opinion on buffing Panther."
+            "Karkat's opinion on buffing Panther"
         ),
         "!swap": (
             "Whether or not to swap ultimately depends on whether or not you prioritize individual wins or improving at a given character, which is why Karkat rarely swaps!",
-            "Karkat's philosophy on swapping characters."
+            "Karkat's philosophy on swapping characters"
         ),
         "!sg": (
             "SG stands for Sanctuary Games which is an indie game studio Karkat started a couple years ago. Still working on their first game, no eta!",
-            "What Sanctuary Games (SG) is."
+            "What Sanctuary Games (SG) is"
         ),
         "!sens": (
             "DPI: 1600, In-Game: 1.5\nBut sensitivity is personal preference, so use whatever feels most comfortable!",
-            "Karkat's sensitivity settings."
+            "Karkat's sensitivity settings"
         ),
         "!vod": (
             "When we decide to do a vod review, a post will be made in the discord under 'match-id' where the first person to drop a code gets chosen. Must be a ranked panther game and a loss, first come first serve, gets reset every stream! Karkat tries to do at least one vod review stream so if you don’t get reviewed today, be sure to come back!",
-            "How to get a VOD reviewed."
+            "How to get a VOD reviewed"
         ),
         "!facereveal": (
             "Karkat's face is out there on the internet, so it wouldn’t be a reveal exactly, but he just doesn't have a webcam. He also figures most people watch the stream for the gameplay and don’t really care what he looks like.",
