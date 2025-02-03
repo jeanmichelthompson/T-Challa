@@ -3,22 +3,50 @@ from openai_client import get_coach_reply
 # Dictionary to map commands to their respective responses and descriptions, grouped by category
 CATEGORIZED_COMMANDS = {
     "Helpful Links": {
+        "!youtube": (
+            "https://www.youtube.com/@karkatsg",
+            "YouTube channel link."
+        ),
+        "!twitch": (
+            "https://www.twitch.tv/karkatsg",
+            "Twitch channel link."
+        ),
         "!discord": (
             "https://discord.gg/zq5eznZXVd",
             "Discord invite link."
+        ),
+        "!twitter": (
+            "https://twitter.com/karkatsg",
+            "Twitter profile link."
+        ),
+        "!vodchannel": (
+            "https://www.youtube.com/channel/UC00t1W6BxLr0vJoxwLO0O4A/",
+            "VOD Channel Link"
         ),
         "!guide": (
             "https://www.youtube.com/watch?v=KHpABbvMSXc",
             "Link to the Panther guide."
         ),
-        "!youtube": (
-            "https://www.youtube.com/@karkatsg",
-            "YouTube channel link."
+        "!dive": (
+            "https://youtu.be/_N3jwHmMgxU",
+            "Link to the Dive guide."
+        ),
+        "!positioning": (
+            "https://youtu.be/x8M1Dji02Yk",
+            "Link to the Positioning guide."
+        ),
+        "!mechanics": (
+            "https://youtu.be/BcDYSeJcM2w",
+            "Link to the Advanced Mechanics guide."
+        ),
+        "!mentality": (
+            "https://youtu.be/7qvFBjG8wIU",
+            "Link to the Mentality guide."
         ),
     },
     "FAQs": {
         "!ban": (
-            "So far, he's won in high elo on venom, captain america, punisher, iron man, mantis, and invisible woman.",
+            "So far, he's won in high elo on venom, captain america, starlord, punisher, iron man, mantis, and invisible woman.",
             "The characters Karkat switches to if Black Panther is banned."
         ),
         "!schedule": (
@@ -50,7 +78,7 @@ CATEGORIZED_COMMANDS = {
             "Karkat's sensitivity settings."
         ),
         "!vod": (
-            "When we decide to do a vod review, a post will be made in the discord under 'match-id' where the first person to drop a code gets chosen. Must be a panther game and a loss, first come first serve, gets reset every stream! Karkat tries to do at least one vod review stream so if you don’t get reviewed today, be sure to come back!",
+            "When we decide to do a vod review, a post will be made in the discord under 'match-id' where the first person to drop a code gets chosen. Must be a ranked panther game and a loss, first come first serve, gets reset every stream! Karkat tries to do at least one vod review stream so if you don’t get reviewed today, be sure to come back!",
             "How to get a VOD reviewed."
         ),
         "!facereveal": (
