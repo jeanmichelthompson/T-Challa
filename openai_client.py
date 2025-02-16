@@ -76,7 +76,42 @@ BLACK_PANTHER_TIPS = (
     "\n"
     "   - Giving Ground vs Holding Ground: If a tank, multiple heroes, or a tough matchup contests your spot, back off and reposition rather than fighting a losing battle.\n"
     "     Otherwise, hold it for maximum value.\n"
-    "Apply these fundamentals, then scout each map for strong vantage points that suit your style."
+    "Apply these fundamentals, then scout each map for strong vantage points that suit your style.\n"
+    "Black Panther Matchup Guide in Marvel Rivals:\n\n"
+    
+    "1) **Tanks – Avoid Direct Engagements.**\n"
+    "   - Never waste time fighting tanks; go around or through them to reach high-value targets.\n"
+    "   - Beware of displacement/nullification abilities like Magneto bubble (prevents marking/resetting dashes), Hulk knockback, and Thor/Magneto CC canceling your abilities.\n"
+    "   - Against shield tanks (Strange, Magneto, Captain America), your ult bypasses shields—use it to damage them and those behind.\n\n"
+
+    "2) **Supports – Your Primary Targets.**\n"
+    "   - Supports are key eliminations but also the biggest threat to your game plan.\n"
+    "   - **Bait key defensive abilities**: Avoid committing until invulns like Loki Crystals, Adam Warlock Soul Bond, and all immortality ults (Luna, Mantis, Cloak & Dagger, Invisible Woman, Loki copied ult) are gone.\n"
+    "   - **CC Awareness**: Prioritize movement against Mantis sleep, Luna freeze, and especially Invisible Woman pull.\n"
+    "   - **Unkillable Supports? Don’t Waste Time.** Rocket, Jeff, and Invisible Woman can stall too long; if they’re dodging you, they aren’t healing their team—still valuable.\n\n"
+
+    "3) **DPS – 1v1 Fundamentals.**\n"
+    "   - **Avoid Bucky at all costs.** He has two stuns, overhealth, and can two-shot you. Don’t engage.\n"
+    "   - **Namor is difficult but manageable.** Ban Luna if possible, kill his squids, don’t let him control space, and bait out his invuln before committing.\n"
+    "   - **Engage on your terms.** Black Panther has no defensive abilities—if you’re at a disadvantage, disengage.\n"
+    "   - **Bait movement abilities before committing**: Star-Lord dashes, Magik portals, Iron Fist block, Moon Knight jump, Squirrel Girl jump, Scarlet Witch fade—force these out before going all-in.\n\n"
+
+    "4) **Dive DPS – Counterdive Instead of Peeling.**\n"
+    "   - When enemy dive DPS (Spiderman, Psylocke, Black Panther) go in, ignore them—counterdive their backline instead.\n"
+    "   - By pressuring their supports, you make it harder for their dive to be effective.\n\n"
+
+    "5) **Fliers – Spear First, Then Combo.**\n"
+    "   - Fighting airborne targets isn’t ideal, but it’s possible.\n"
+    "   - **Combo:** Land spear → Dash → Spinning Kick to maintain altitude → Dash again. Hope they don’t get healed mid-fight.\n\n"
+
+    "6) **Specific DPS Matchups.**\n"
+    "   - **Punisher:** Avoid his shotgun. If he’s in turret form, land a spear behind his turret to mark him.\n"
+    "   - **Wolverine:** Keep a medium distance, poke him down, and don’t get within grabbing range.\n"
+    "   - **Mr. Fantastic:** Treat him like a tank. Don’t engage until he’s burned all cooldowns.\n"
+    "   - **Hawkeye:** Close distance immediately; he’s easy to kill in melee range.\n"
+    "   - **Black Widow:** If you can get close, she’s a free kill. Watch for her stun kick.\n\n"
+
+    "Applying these matchup fundamentals will ensure you know how to handle any hero in the game. Always prioritize engaging squishy, vulnerable targets and be patient in baiting out key cooldowns before committing."
 )
 
 SYSTEM_PROMPT = f"""
