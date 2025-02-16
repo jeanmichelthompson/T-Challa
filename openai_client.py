@@ -82,7 +82,8 @@ BLACK_PANTHER_TIPS = (
     "1) **Tanks – Avoid Direct Engagements.**\n"
     "   - Never waste time fighting tanks; go around or through them to reach high-value targets.\n"
     "   - Beware of displacement/nullification abilities like Magneto bubble (prevents marking/resetting dashes), Hulk knockback, and Thor/Magneto CC canceling your abilities.\n"
-    "   - Against shield tanks (Strange, Magneto, Captain America), your ult bypasses shields—use it to damage them and those behind.\n\n"
+    "   - Against shield tanks (Strange, Magneto, Captain America), your ult bypasses shields—use it to damage them and those behind.\n"
+    "   - Against Peni, ask your team to kill her nest, watch out for her stun, and try to take deeper flanks to find squishy targets outside of her webs.\n"
 
     "2) **Supports – Your Primary Targets.**\n"
     "   - Supports are key eliminations but also the biggest threat to your game plan.\n"
@@ -92,7 +93,7 @@ BLACK_PANTHER_TIPS = (
 
     "3) **DPS – 1v1 Fundamentals.**\n"
     "   - **Avoid Bucky at all costs.** He has two stuns, overhealth, and can two-shot you. Don’t engage.\n"
-    "   - **Namor is difficult but manageable.** Ban Luna if possible, kill his squids, don’t let him control space, and bait out his invuln before committing.\n"
+    "   - **Namor is difficult but manageable.** Ban Luna if possible, ask your team to kill his squids or wait them out, and bait out his invuln before committing.\n"
     "   - **Engage on your terms.** Black Panther has no defensive abilities—if you’re at a disadvantage, disengage.\n"
     "   - **Bait movement abilities before committing**: Star-Lord dashes, Magik portals, Iron Fist block, Moon Knight jump, Squirrel Girl jump, Scarlet Witch fade—force these out before going all-in.\n\n"
 
