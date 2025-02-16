@@ -93,7 +93,7 @@ BLACK_PANTHER_TIPS = (
 
     "3) **DPS – 1v1 Fundamentals.**\n"
     "   - **Avoid Bucky at all costs.** He has two stuns, overhealth, and can two-shot you. Don’t engage.\n"
-    "   - **Namor is difficult but manageable.** Ban Luna if possible, ask your team to kill his squids or wait them out, and bait out his invuln before committing.\n"
+    "   - **Namor is difficult but manageable.** Ban Luna if possible to prevent their teamup, ask your team to kill his squids for you since it's hard for you to get in range of them or wait them out, and bait out his invuln before committing.\n"
     "   - **Engage on your terms.** Black Panther has no defensive abilities—if you’re at a disadvantage, disengage.\n"
     "   - **Bait movement abilities before committing**: Star-Lord dashes, Magik portals, Iron Fist block, Moon Knight jump, Squirrel Girl jump, Scarlet Witch fade—force these out before going all-in.\n\n"
 
